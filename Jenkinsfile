@@ -1,17 +1,4 @@
-pipeline {
-    agent any
-
-    stages {
-        stage('Pull Code from GitHub') {
-            steps {
-                git 'https://github.com/shadow846/Git-CI-CD-Project.git'
-            }
-        }
-
-        stage('Build Docker Image') {
-            steps {
-                script {
-                    docker.build('goutham-html-site')
+  GNU nano 8.3                                                                                       Jenkinsfile
                 }
             }
         }
@@ -31,3 +18,5 @@ pipeline {
         }
     }
 }
+
+
